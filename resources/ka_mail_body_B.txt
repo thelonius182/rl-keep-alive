@@ -1,0 +1,10 @@
+Beste CZ-studio,
+
+Het bewakingsproces van RL-scheduler heeft een herstart moeten doen.
+
+Daarom graag deze logs op de nipper-pc inspecteren:
+- C:\cz_salsa\Logs\ns_bum_vot.log (NipperStudio, op Gergiev)
+- C:\Users\nipper\Logs\rlsched_compiler.log (Playlistweek, op Nipper)
+
+Met vriendelijke groet,
+CZ-teamservice
