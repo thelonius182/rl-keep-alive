@@ -5,3 +5,4 @@ email_to_A: lcavdakker@gmail.com
 email_to_B: sem@concertzender.nl
 email_auth_path: cz-studiomails.json
 log_slug: rls_ka
+keep_alive_log_uzm: //UITZENDMAC-2/macOS/Users/tech_1/Documents/Salsa/scripts/logs
