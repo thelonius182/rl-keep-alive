@@ -42,7 +42,8 @@ CS_Write-Log -message "R-home = $r_path"
 # point to the R-script and run it
 $script_home = "g:\R_released_projects\rl-keep-alive"
 $script_path = Join-Path $script_home -ChildPath "R"
-$script_path = Join-Path $script_path -ChildPath "report_rls_alive.R"
+$script_path = Join-Path $script_path -ChildPath "main.R"
 CS_Write-Log -message "running $script_path"
+cd $script_home
 & $r_path $script_path
 CS_Write-Log -message "job completed normally"
