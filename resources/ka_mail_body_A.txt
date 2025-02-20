@@ -2,13 +2,16 @@ Beste CZ-studio,
 
 De software kon niet vaststellen of RL-scheduler draait. Dat kan aan
 RL-scheduler zelf liggen, of aan het proces waarmee de scheduler in
-de gaten gehouden wordt. Graag deze checks uitvoeren:
+de gaten gehouden wordt. Graag checken of:
 
 - RL-scheduler draait
 - de uitzending voor het volgende uur staat klaar
-- analyseer de logs van de scheduler-bewaking.
-Die zijn te vinden op de mac, in de map /macOS/Users/tech_1/Documents/Salsa/scripts/logs/
-Het gaat om ps_rlsched_agt.err en ps_rlsched_agt.log
+
+Om de oorzaak te vinden, graag deze logs bekijken:
+- ps_rlsched_agt.err
+- ps_rlsched_agt.log
+Die zijn te vinden op de mac, in deze map:
+/macOS/Users/tech_1/Documents/Salsa/scripts/logs/
 
 Met vriendelijke groet,
 CZ-teamservice

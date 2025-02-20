@@ -18,8 +18,8 @@ send_ka_mail <- function(mac, subject_msg, body_msg) {
   tryCatch(
     {
       mac_status_report <- gmailr::gm_mime() |>
-        # gmailr::gm_to(c(config$email_to_A, config$email_to_B)) |>
-        gmailr::gm_to(config$email_to_A) |>
+        gmailr::gm_to(c(config$email_to_A, config$email_to_B)) |>
+        # gmailr::gm_to(config$email_to_A) |>
         gmailr::gm_from(config$email_from) |>
         gmailr::gm_subject(sprintf("Signalering %s - %s", mac, subject_msg)) |>
         gmailr::gm_text_body(body_msg)
